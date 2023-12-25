@@ -19,7 +19,7 @@
                         <br>
                         <input type="file" id="img" name="img" accept=" .jpg, .jpeg, .png" value="<?= $post['img'] ?>">
                     </div>
-                    <!-- <div>
+                  <div>
                         <label class="my-3" for="img">Publish date</label>
                         <br>
                         <div class="relative max-w-sm">
@@ -31,8 +31,8 @@
 
                             <input datepicker datepicker-buttons type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date">
                         </div>
-                    </div> -->
-                    <div>
+                    </div> 
+                      <!-- <div>
                         <?php $status = isset($_POST['post_status']);
                         if ($status == "Publish") { ?>
                             <div class="relative max-w-sm">
@@ -42,7 +42,7 @@
                             <input class="py-2 px-4 rounded-md bg-green-500" type="button" name="post_status" value="Publish">
                         <?php } ?>
                     </div>
-                </div>
+                </div>-->
                 <br>
                 <br>
                 <div class="text-3xl font-bold">
